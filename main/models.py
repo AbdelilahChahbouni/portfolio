@@ -24,4 +24,4 @@ class ProjectImage(models.Model):
 
 
     def __str__(self):
-        return f"{self.Project.title} Image "
+        return f"{self.project.title} Image "
